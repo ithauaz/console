@@ -1,0 +1,35 @@
+{
+    "name": "ithauaz/console",
+    "description": "Đăng ký các lệnh tùy chỉnh và lập lịch tác vụ vào Flarum",
+    "keywords": [
+        "extension",
+        "flarum",
+        "console",
+        "cronjob",
+        "cron"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyễn Văn Hậu",
+            "email": "ithauaz@gmail.com",
+            "homepage": "https://xvn.mobi/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ithauaz/console/issues",
+        "source": "https://github.com/ithauaz/console"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.14",
+        "illuminate/console": "^6.0",
+        "dragonmantank/cron-expression": "^1.2.1",
+        "symfony/process": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ithauaz\\Console\\": "src/"
+        }
+    }
+}

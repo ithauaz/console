@@ -1,0 +1,5 @@
+- 0.2
+	- Nâng cấp illuminate/console.
+     - Thêm khả năng lập lịch trình.
+- 0.1
+    - Phiên bản ban đầu sử dụng symfony/console.
